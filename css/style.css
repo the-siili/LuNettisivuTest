@@ -741,6 +741,7 @@ b i:last-child {
     opacity: 0;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    background-color: rgba(12, 12, 12, 0.3);
 }
 
 .portfolio_item .portfolio_item_hover .item_info {
