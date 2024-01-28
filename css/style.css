@@ -1093,21 +1093,21 @@ textarea:focus {
 }
 
 .openImg {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
     height: 100vh; /* Set height to 100% of viewport height */
-    display: flex;
+    width:fit-content;
     align-items: center;
-    justify-content: center;
     z-index:5;
+    background-color: #ff0000;
 }
 
 
 .expandedImg{
-    height: 100%;
-    width: auto;
+    height: 100vh;
+    width: fit-content;
     object-fit:contain;
 }
 
