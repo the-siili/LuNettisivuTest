@@ -1,6 +1,8 @@
 
 
 
+let desktop = true;
+
 let mainImgPath = "img/portfolio/portfolio-"
 
 
@@ -14,14 +16,22 @@ var items = [
 
 
 function showImg(img){
+    var options={};
 
-    // define options (if needed)
-    var options = {
-    // optionName: 'option value'
-    // for example:
-    index: img-1, // this option means you will start at first image
-    draggable: false
-    };
+
+    if(desktop){
+        options = {
+        index: img-1, // load clicked image
+        };
+    }
+    else{
+        options = {
+            index: img-1, // tload clicked image
+
+
+            draggable: false
+        };
+    }
 
 
     // Initialize the plugin
@@ -32,6 +42,21 @@ function showImg(img){
 
 
 window.onload = (event) => {
+
+
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+        // true for mobile device
+        desktop=false;
+      }else{
+        // false for not mobile device
+        desktop=true;
+    }
+    console.log(desktop)
+      
+
+
+
+
     
     for(var i = 1; i < 48; i++){
         //console.log(mainImgPath + i + ".webp")
