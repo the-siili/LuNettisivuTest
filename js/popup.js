@@ -22,17 +22,19 @@ function showImg(img){
     if(desktop){
         options = {
         index: img-1, // load clicked image
+        multiInstances: false
         };
     }
     else{
         options = {
             index: img-1, // tload clicked image
+            multiInstances: false,
 
 
             draggable: false,
             resizable:false,
             movable: false,
-            keyboard: false,
+            keyboard: false
         };
     }
 
