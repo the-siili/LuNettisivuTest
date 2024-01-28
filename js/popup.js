@@ -65,7 +65,7 @@ window.onload = (event) => {
 
 
     
-    for(var i = 1; i < 48; i++){
+    for(var i = 1; i < 49; i++){
         //console.log(mainImgPath + i + ".webp")
         var newItem = {
             src: mainImgPath + i + ".webp",
