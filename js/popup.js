@@ -1,7 +1,12 @@
 
 
 
+let imageBox = document.getElementById("openImg")
+
 
 function showImg(img){
-    window.open(img);
+    var expandImg = document.getElementById("expandedImg");
+    expandImg.src = img
+    expandImg.parentElement.style.display = "block";
+
 }
