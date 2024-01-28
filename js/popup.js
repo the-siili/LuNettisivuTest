@@ -22,13 +22,15 @@ function showImg(img){
     if(desktop){
         options = {
         index: img-1, // load clicked image
-        multiInstances: false
+        multiInstances: false,
+        initMaximized: true
         };
     }
     else{
         options = {
             index: img-1, // tload clicked image
             multiInstances: false,
+            initMaximized: true,
 
 
             draggable: false,
