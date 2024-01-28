@@ -29,7 +29,10 @@ function showImg(img){
             index: img-1, // tload clicked image
 
 
-            draggable: false
+            draggable: false,
+            resizable:false,
+            movable: false,
+            keyboard: false,
         };
     }
 
