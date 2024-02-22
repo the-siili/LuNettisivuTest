@@ -894,8 +894,8 @@ footer img {
 .top-bar {
     color: #333;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .0), rgba(255, 255, 255, .0)), url(../img/01.webp);
-    background: linear-gradient( rgba(255, 255, 255, .0), rgba(255, 255, 255, .0)), url(../img/01.webp);
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .0), rgba(255, 255, 255, .0)), url(../img/02.webp);
+    background: linear-gradient( rgba(255, 255, 255, .0), rgba(255, 255, 255, .0)), url(../img/02.webp);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -1013,6 +1013,7 @@ footer img {
     border: solid 1px rgba(0, 0, 0, .1);
     position: relative;
     margin-bottom: 30px;
+    background-color: #191625;
 }
 
 .input-contact input[type="text"] {
